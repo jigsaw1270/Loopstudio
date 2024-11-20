@@ -1,0 +1,9 @@
+.vignette {
+    position: absolute;
+    top: 0;
+    left: 0;
+width: 17rem;
+height: 30rem;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.9) inset;
+    pointer-events: none; /* Ensure it doesn't block interactions */
+  }
