@@ -1,10 +1,14 @@
 import "./App.css";
 import interactive from "./assets/images/desktop/image-interactive.jpg";
+import facebook from "./assets/images/icon-facebook.svg";
+import twitter from "./assets/images/icon-twitter.svg";
+import pinterest from "./assets/images/icon-pinterest.svg";
+import instragram from "./assets/images/icon-instagram.svg";
 
 function App() {
   return (
     <main>
-      <section className="relative bg-[url('./assets/images/desktop/image-hero.jpg')] w-full h-[40rem] bg-no-repeat bg-cover bg-center">
+      <section className="relative bg-[url('./assets/images/desktop/image-hero.jpg')] w-full h-[40rem]  bg-no-repeat bg-cover bg-center">
         {/* Overlay */}
         <div className="absolute inset-0 bg-gray-900 bg-opacity-50 z-10"></div>
 
@@ -113,6 +117,45 @@ function App() {
           </div>
         </div>
       </section>
+
+      <footer className="bg-black w-full mt-28">
+        <div className="container py-12 flex items-center justify-between">
+          <div className="flex flex-col gap-4">
+            <h1 className="font-jose text-4xl text-white font-bold">
+              loopstudios
+            </h1>
+            <ul className="flex space-x-6 font-alata text-sm">
+              <li className="text-white">About</li>
+              <li className="text-white">Careers</li>
+              <li className="text-white">Events</li>
+              <li className="text-white">Products</li>
+              <li className="text-white">Support</li>
+            </ul>
+          </div>
+          <div>
+            <ul className="flex space-x-6 font-alata text-sm">
+              <li className="text-white">
+                {" "}
+                <img src={facebook} alt="" />
+              </li>
+              <li className="text-white">
+                {" "}
+                <img src={twitter} alt="" />
+              </li>
+              <li className="text-white">
+                {" "}
+                <img src={pinterest} alt="" />
+              </li>
+              <li className="text-white">
+                {" "}
+                <img src={instragram} alt="" />
+              </li>
+            </ul>
+            <p className="font-alata text-dark-gray  text-xs mt-4" >© 2024 loopstudios by JIGSAW-deV</p>
+          </div>
+      
+        </div>
+      </footer>
     </main>
   );
 }
