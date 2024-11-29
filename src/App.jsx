@@ -9,7 +9,7 @@ import ham from "./assets/images/icon-hamburger.svg";
 function App() {
   return (
     <main>
-      <section className="relative bg-[url('./assets/images/desktop/image-hero.jpg')] md:w-full md:h-[40rem] h-[40rem] bg-no-repeat bg-cover bg-center">
+      <section className="relative bg-[url('./assets/images/mobile/image-hero.jpg')] md:bg-[url('./assets/images/desktop/image-hero.jpg')] md:w-full md:h-[40rem] h-[40rem] bg-no-repeat bg-cover bg-center">
         {/* Overlay */}
         <div className="absolute inset-0 bg-gray-900 bg-opacity-50 z-10"></div>
 
@@ -68,51 +68,51 @@ function App() {
           </button>
         </div>
 
-        <div className="container mb-8 grid md:grid-cols-4 grid-cols-1">
-          <div className="relative bg-[url('/src/assets/images/desktop/image-deep-earth.jpg')] md:w-[17rem] md:h-[30rem] h-28 w-[20rem] bg-no-repeat">
-            <p className="text-white absolute bottom-8 text-3xl p-8 font-jose font-light">
+        <div className="container mb-8 grid md:grid-cols-4 grid-cols-1 max-sm:gap-4">
+          <div className="relative  bg-[url('/src/assets/images/mobile/image-deep-earth.jpg')] md:bg-[url('/src/assets/images/desktop/image-deep-earth.jpg')] md:w-[17rem] md:h-[30rem] h-40 w-full bg-no-repeat max-sm:bg-cover max-sm:bg-[bottom_4rem]">
+            <p className="text-white absolute md:bottom-8 max-sm:top-8 text-3xl p-8 font-jose font-light">
               DEEP <br />
               EARTH
             </p>
           </div>
-          <div className="relative bg-[url('/src/assets/images/desktop/image-night-arcade.jpg')] max-w-[17rem] h-[30rem] bg-no-repeat">
-            <p className="text-white absolute bottom-8 text-3xl p-8 font-jose font-light">
+          <div className="relative bg-[url('/src/assets/images/mobile/image-night-arcade.jpg')] md:bg-[url('/src/assets/images/desktop/image-night-arcade.jpg')]  md:w-[17rem] md:h-[30rem] h-40 w-full bg-no-repeat max-sm:bg-cover">
+            <p className="text-white absolute md:bottom-8 max-sm:top-8 text-3xl p-8 font-jose font-light">
               NIGHT <br />
               ARCADE
             </p>
           </div>
-          <div className="relative bg-[url('/src/assets/images/desktop/image-soccer-team.jpg')] max-w-[17rem] h-[30rem] bg-no-repeat">
-            <p className="text-white absolute bottom-8 text-3xl p-8 font-jose font-light">
+          <div className="relative bg-[url('/src/assets/images/desktop/image-soccer-team.jpg')]  md:w-[17rem] md:h-[30rem] h-40 w-full bg-no-repeat max-sm:bg-cover">
+            <p className="text-white absolute md:bottom-8 max-sm:top-8 text-3xl p-8 font-jose font-light">
               SOCCER <br />
               TEAM
             </p>
           </div>
-          <div className="relative bg-[url('/src/assets/images/desktop/image-grid.jpg')] max-w-[17rem] h-[30rem] bg-no-repeat">
-            <p className="text-white absolute bottom-8 text-3xl p-8 font-jose font-light">
+          <div className="relative bg-[url('/src/assets/images/mobile/image-grid.jpg')] md:bg-[url('/src/assets/images/desktop/image-grid.jpg')]  md:w-[17rem] md:h-[30rem] h-40 w-full bg-no-repeat max-sm:bg-cover">
+            <p className="text-white absolute md:bottom-8 max-sm:top-8 text-3xl p-8 font-jose font-light">
               THE <br />
               GRID
             </p>
           </div>
-          <div className="relative bg-[url('/src/assets/images/desktop/image-from-above.jpg')] max-w-[17rem] h-[30rem] bg-no-repeat">
-            <p className="text-white absolute bottom-8 text-3xl p-8 font-jose font-light">
+          <div className="relative bg-[url('/src/assets/images/mobile/image-from-above.jpg')] md:bg-[url('/src/assets/images/desktop/image-from-above.jpg')]  md:w-[17rem] md:h-[30rem] h-40 w-full bg-no-repeat max-sm:bg-cover">
+            <p className="text-white absolute md:bottom-8 max-sm:top-8 text-3xl p-8 font-jose font-light">
               FROM UP <br />
               ABOVE VR
             </p>
           </div>
-          <div className="relative bg-[url('/src/assets/images/desktop/image-pocket-borealis.jpg')] max-w-[17rem] h-[30rem] bg-no-repeat">
-            <p className="text-white absolute bottom-8 text-3xl p-8 font-jose font-light">
+          <div className="relative bg-[url('/src/assets/images/mobile/image-pocket-borealis.jpg')] md:bg-[url('/src/assets/images/desktop/image-pocket-borealis.jpg')]  md:w-[17rem] md:h-[30rem] h-40 w-full bg-no-repeat max-sm:bg-cover">
+            <p className="text-white absolute md:bottom-8 max-sm:top-8 text-3xl p-8 font-jose font-light">
               POCKET <br />
               BOREALIS
             </p>
           </div>
-          <div className="relative bg-[url('/src/assets/images/desktop/image-curiosity.jpg')] max-w-[17rem] h-[30rem] bg-no-repeat">
-            <p className="text-white absolute bottom-8 text-3xl p-8 font-jose font-light">
+          <div className="relative bg-[url('/src/assets/images/mobile/image-curiosity.jpg')] md:bg-[url('/src/assets/images/desktop/image-curiosity.jpg')] md:w-[17rem] md:h-[30rem] h-40 w-full bg-no-repeat max-sm:bg-cover">
+            <p className="text-white absolute md:bottom-8 max-sm:top-8 text-3xl p-8 font-jose font-light">
               THE <br />
               CURIOSITY
             </p>
           </div>
-          <div className="relative bg-[url('/src/assets/images/desktop/image-fisheye.jpg')] max-w-[17rem] h-[30rem] bg-no-repeat">
-            <p className="text-white absolute bottom-8 text-3xl p-8 font-jose font-light">
+          <div className="relative bg-[url('/src/assets/images/mobile/image-fisheye.jpg')] md:bg-[url('/src/assets/images/desktop/image-fisheye.jpg')]  md:w-[17rem] md:h-[30rem] h-40 w-full bg-no-repeat max-sm:bg-cover">
+            <p className="text-white absolute md:bottom-8 max-sm:top-8 text-3xl p-8 font-jose font-light">
               MAKE IT <br />
               FISHEYE
             </p>
